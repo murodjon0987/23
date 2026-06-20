@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  padding: 50px 102px;
+  transform: translate(+640px);
+}
+
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 40px;
+  padding-top: +100px;
+  color: red;
+  font-family: cursive;
+  
+}
