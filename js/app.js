@@ -8,17 +8,17 @@ btn.addEventListener("click", () => {
     .then((data) => {
 
       product.innerHTML = data.products
-        .map((item) => `
+        .map((prodacts) => `
           
           <div class="card">
 
-            <img src="${item.images[0]}">
+            <img src="${prodacts.images[0]}">
 
-            <h2>${item.title}</h2>
+            <h2>${prodacts.title}</h2>
 
-            <h3>${item.rating}</h3>
+            <h3>${prodacts.rating}</h3>
 
-            <p>${item.price}$</p>
+            <p>${prodacts.price}$</p>
 
           </div>
         
